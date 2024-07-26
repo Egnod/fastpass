@@ -52,7 +52,7 @@ class App:
         """Show version."""
         print(__version__)
 
-    def _root(
+    def _root(  # noqa: CFQ002
         self,
         count: int = 1,
         length: int = 5,
